@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+* {
+  font-family: 'Joan', serif;
+}
+
+:root {
+  --main-bg: #111827;
+  --secondary-bg: #1f2937;
+  --primary: #5EB1BF;
+  --secondary: #54F2F2;
+
+}
+
+
+body {
+  background: var(--main-bg);
+}
