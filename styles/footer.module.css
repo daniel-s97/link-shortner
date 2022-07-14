@@ -1,0 +1,19 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.name {
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.name:hover {
+    text-decoration: underline;
+}

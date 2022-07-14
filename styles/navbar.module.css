@@ -1,0 +1,36 @@
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: var(--secondary-bg); 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    max-height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.icon {
+    padding: 1vh 2vw;
+    filter: invert(100%) sepia(2%) saturate(7494%) hue-rotate(152deg) brightness(104%) contrast(102%);
+    height: 3vh;
+}
+
+.icon:hover {
+    background: white;
+    filter: none;
+}
+
+.tooltip {
+    position: absolute;
+    left: calc(100vw / 6.2);
+    top: 3.5rem;
+    background: var(--secondary-bg);
+}
+
+.point {
+    background: red;
+    margin-bottom: 5px;
+}
