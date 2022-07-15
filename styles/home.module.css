@@ -1,0 +1,37 @@
+.container {
+	display: flex;
+	justify-content: center;
+	height: 90vh;
+	color: white;
+	align-items: center;
+	flex-direction: column;
+}
+
+.inputForm {
+	position: relative;
+	width: 30vw;
+}
+
+.inputForm input {
+	border: none;
+	border-bottom: 1px solid var(--primary);
+	width: 100%;
+	background: transparent;
+	outline: none;
+	color: white;
+}
+
+.inputForm label {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: transform 0.3s;
+}
+
+.inputForm input:not(:placeholder-shown) ~ label {
+	transform: translate(0, -100%);
+}
+
+.inputForm input:focus ~ label {
+	transform: translate(0, -100%);
+}
