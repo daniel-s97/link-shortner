@@ -4,10 +4,10 @@ export default function Footer() {
 	return (
 		<div className={styles.footer}>
 			<p>
-				Made by{" "}
+				Made by
 				<Link href="https://github.com/daniel-sockness">
 					<span className={styles.name}>Daniel Sockness</span>
-				</Link>{" "}
+				</Link>
 			</p>
 		</div>
 	);

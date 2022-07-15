@@ -16,3 +16,11 @@
 body {
   background: var(--main-bg);
 }
+
+.content {
+  position: absolute;
+  top: 5.5vh;
+  left: 0;
+  width: 100vw;
+  height: 90vh;
+}
